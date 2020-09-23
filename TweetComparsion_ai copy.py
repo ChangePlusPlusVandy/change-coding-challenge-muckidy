@@ -87,7 +87,7 @@ kanyeTweets = getTweets('kanyewest')
 # Get Elon's Tweets
 elonTweets = getTweets('elonmusk')
 
-# ******************* Begin Setup for Linear Regression Model *******************
+# ******************* Begin Setup for Logistic Regression Model *******************
 kanyes = ' '.join(kanyeTweets) # For the Tfidf - Long string of every Kanye Tweet connected by spaces
 elons = ' '.join(elonTweets) # For the Tfidf - Lost string of every Elon Tweet connected by spaces
 total = [kanyes, elons] 
